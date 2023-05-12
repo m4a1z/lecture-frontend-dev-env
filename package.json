@@ -1,0 +1,27 @@
+{
+  "name": "lecture-frontend-dev-env",
+  "version": "1.0.0",
+  "description": "웹팩연습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development  --config ./webpack-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4a1z/lecture-frontend-dev-env.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m4a1z/lecture-frontend-dev-env/issues"
+  },
+  "homepage": "https://github.com/m4a1z/lecture-frontend-dev-env#readme",
+  "dependencies": {
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.12"
+  },
+  "devDependencies": {
+    "webpack-node-externals": "^3.0.0"
+  }
+}
